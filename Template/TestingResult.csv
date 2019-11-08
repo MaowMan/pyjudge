@@ -1,0 +1,3 @@
+Id,Name,ResultScore,a001-0_Status,a001-0_Score,a001-1_Status,a001-1_Score,a002-0_Status,a002-0_Score
+0,ck1070287,150,WA:8->10,0,AC,50,AC,100
+0,ck1070288,0,NA:python: can't open file './Template/ck1070288-a001.py': [Errno 2] No such file or directory,0,NA:python: can't open file './Template/ck1070288-a001.py': [Errno 2] No such file or directory,0,NA:python: can't open file './Template/ck1070288-a002.py': [Errno 2] No such file or directory,0

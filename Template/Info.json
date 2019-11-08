@@ -1,0 +1,30 @@
+{
+    "Name": "TestingResult",
+    "Problems": [{
+            "Name": "a001",
+            "Testcases": [{
+                    "Score": 50,
+                    "Seq": 0,
+                    "Timelimit": 1
+                },
+                {
+                    "Score": 50,
+                    "Seq": 1,
+                    "Timelimit": 1
+                }
+            ]
+        },
+        {
+            "Name": "a002",
+            "Testcases": [{
+                "Score": 100,
+                "Seq": 0,
+                "Timelimit": 1
+            }]
+        }
+    ],
+    "Students": [
+        "ck1070287",
+        "ck1070288"
+    ]
+}
