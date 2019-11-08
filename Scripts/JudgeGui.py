@@ -37,7 +37,7 @@ class JudgeSetup(JudgeTk):
         self.IndexLabel.grid(row=3,column=0,columnspan=1,sticky=W)
         self.IndexInfoLabel=Label(self.Root,bg="gray",text="格式:分數-限制秒數",font=self.Font)
         self.IndexInfoLabel.grid(row=3,column=1,sticky=W)
-        self.IndexEditButton=Button(self.Root,text="編輯",font=self.Font,command=lambda: self.edit_problem_index(".info"))
+        self.IndexEditButton=Button(self.Root,text="編輯",font=self.Font,command=lambda: self.edit_problem_index(".data"))
         self.IndexEditButton.grid(row=3,column=2)
         self.UpperBlankLabel=Label(self.Root,text="測資輸入檔案",font=self.Font)
         self.UpperBlankLabel.grid(row=4,column=0,columnspan=2,sticky=W)
