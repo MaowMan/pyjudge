@@ -17,7 +17,7 @@
  執行`Main.py` 開始批改
 # 檔案說明
  `./Template/`範例測驗資料夾  
- `./Scripts/`pyjudge之類別及函式  
+ `./Scripts/`類別及函式  
  `./Config/` 程式所需設定檔
 
 
