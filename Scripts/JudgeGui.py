@@ -52,6 +52,9 @@ class JudgeSetup(JudgeTk):
         self.SelectScriptsLabel.grid(row=6,column=0,columnspan=2,sticky=W)
         self.SelectScriptsButton=Button(self.Root,text="選擇",font=self.Font,command=self.select_scripts)
         self.SelectScriptsButton.grid(row=6,column=2)
+
+        self.SaveConfigButton=Button(self.Root,text="儲存",font=self.Font,fg="red",command=self.save_config)
+        self.SaveConfigButton.grid(row=7,column=2)
     def Mainloop(self):
         self.Root.mainloop()
     
@@ -76,6 +79,10 @@ class JudgeSetup(JudgeTk):
         for file_ in files:
             filename=file_.split("/")[-1]
             copyfile(file_,self.FolderVar.get()+"/"+filename)
+
+    def save_config(self):
+        pass
+
             
 
 class JudgeTextEditor(JudgeTk):
