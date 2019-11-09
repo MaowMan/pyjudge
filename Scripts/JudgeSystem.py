@@ -1,4 +1,4 @@
-import json as json
+import json as json 
 import csv as csv
 from Scripts.JudgeBase import  JudgeObj,JudgeError
 from Scripts.JudgeMain import JudgeMain

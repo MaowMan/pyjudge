@@ -16,6 +16,8 @@
  手動修改`./Config/MainConfig.json` 更改judge系統目標測驗資料夾  
  如何配置文件可以參考`./Template/`中的範例檔案  
  執行`Main.py` 開始批改
+# 批改檔案支援
+ 目前僅支持 Python(.py)
 # 檔案說明
  `./Template/`範例測驗資料夾  
  `./Scripts/`類別及函式  

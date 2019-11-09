@@ -1,4 +1,4 @@
-from Scripts.JudgeBase import JudgeObj,JudgeError
+from Scripts.JudgeBase import JudgeObj,JudgeError 
 from subprocess import run,PIPE,TimeoutExpired
 class JudgeMain(JudgeObj):
     def __init__(self,Student,Problem,Testcase):

@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import * 
 from tkinter import filedialog,messagebox
 from Scripts.JudgeBase import JudgeObj,JudgeError,JudgeTk
 import json as json

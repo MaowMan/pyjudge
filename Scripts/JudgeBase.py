@@ -1,4 +1,4 @@
-import json as json
+import json as json 
 from tkinter import *
 class JudgeObj(object):
     def __init__(self):
