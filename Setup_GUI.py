@@ -1,2 +1,2 @@
-from Scripts.JudgeGui import JudgeSetup
+from Scripts.JudgeGui import JudgeSetup 
 JudgeSetup()
